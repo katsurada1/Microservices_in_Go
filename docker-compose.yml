@@ -3,14 +3,14 @@ version: '3'
 services:
   backend:
     build:
-      context: ./backend
-    container_name: backend
+      context: ./frontend
+    container_name: frontend
     environment:
       - GOPATH=/go/src
     ports:
-      - 8080:8080
+      - 8080:80
     tty: true
     volumes:
-      - ./backend:/go/src/backend
+      - ./frontend:/go/src/frontend
   
   

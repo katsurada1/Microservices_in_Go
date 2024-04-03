@@ -2,6 +2,7 @@
 node_modules
 brokerApp
 frontApp
+authApp
 scripts/flow/*/.flowconfig
 .flowconfig
 *~

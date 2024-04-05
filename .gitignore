@@ -1,9 +1,9 @@
 .DS_STORE
 node_modules
-brokerApp
-frontApp
-authApp
-project/db-data
+broker-service/brokerApp
+front-end/frontApp
+authentication-service/authApp
+project/db-data/*
 scripts/flow/*/.flowconfig
 .flowconfig
 *~

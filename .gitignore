@@ -4,6 +4,7 @@ broker-service/brokerApp/
 front-end/frontApp/
 authentication-service/authApp/
 mail-service/mailerApp/
+listener-service/listenerApp/
 project/db-data/*
 scripts/flow/*/.flowconfig
 .flowconfig

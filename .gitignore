@@ -3,6 +3,7 @@ node_modules
 broker-service/brokerApp/
 front-end/frontApp/
 authentication-service/authApp/
+mail-service/mailerApp/
 project/db-data/*
 scripts/flow/*/.flowconfig
 .flowconfig

@@ -4,10 +4,14 @@ version: '3'
 # have to change the image: <name> part to whatever your image names are
 
 services:
+  front-end:
+    image: 1kazuki11/front-end:1.0.0
+    deploy:
+      mode: replicated
+      replicas: 1
+
   broker-service:
-    image: 1kazuki11/broker-service:1.0.0
-    ports:
-      - '8080:80'
+    image: 1kazuki11/broker-service:1.0.1
     deploy:
       mode: replicated
       replicas: 1
@@ -27,7 +31,7 @@ services:
       DSN: 'host=postgres port=5432 user=postgres password=password dbname=users sslmode=disable timezone=UTC connect_timeout=5'
 
   logger-service:
-    image: 1kazuki11/logger-service:1.0.0
+    image: 1kazuki11/logger-service:1.0.1
     deploy:
       mode: replicated
       replicas: 1

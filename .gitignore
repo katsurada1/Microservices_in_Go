@@ -2,6 +2,7 @@
 node_modules
 broker-service/brokerApp
 front-end/frontApp
+front-end/frontEndApp
 authentication-service/authApp
 mail-service/mailerApp
 listener-service/listenerApp

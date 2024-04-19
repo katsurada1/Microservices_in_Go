@@ -7,7 +7,9 @@ authentication-service/authApp
 mail-service/mailerApp
 listener-service/listenerApp
 logger-service/loggerServiceApp
-project/db-data
+project/db-data/
+project/caddy_config/
+project/caddy_data
 scripts/flow/*/.flowconfig
 .flowconfig
 *~
